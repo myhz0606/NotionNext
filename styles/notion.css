@@ -1397,7 +1397,7 @@ code[class*='language-'] {
 }
 
 .katex-display>.katex>.katex-html>.tag {
-    position: inherit !important;
+    position: inherit;
 }
 
 .notion-page-title {
@@ -2018,6 +2018,13 @@ code.language-mermaid {
 
 .mermaid > svg {
   margin: auto;
+}
+.katex-display {
+  display: block;
+  margin: 1em 0;
+  text-align: center;
+  font-size: smaller;
+  color: blue;
 }
 
 .notion-equation-inline .katex-display {
